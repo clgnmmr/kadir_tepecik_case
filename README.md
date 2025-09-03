@@ -19,22 +19,24 @@ Additionally, tests can be run flexibly at the class or method level using **Tes
 ---
 
 ## 📂  Project Structure
-
-src
-├── main
-│   └── java
-├── test
-│   ├── java
-│   │   ├── hooks          # Listener (Allure + Screenshot on failure)
-│   │   ├── pages          # Page Object Model classes (HomePage, CareersPage, QAJobsPage)
-│   │   ├── tests          # Test classes (InsiderTests)
-│   │   └── utilities      # Utility classes (Driver, Wait, Commands, Asserts, GeneralReader)
-│   └── resources
-│       ├── testng.xml         # Runs all tests
-│       ├── testng_class.xml   # Runs specific class
-│       ├── testng_method.xml  # Runs specific method
-│       └── Configuration.properties
-└── pom.xml
+     ```bash
+     InsiderAutomationFramework/
+         ├── src/
+         │   └── test/
+         │       ├── java/
+         │       │   ├── hooks/          # Listener (Allure + Screenshot on failure)
+         │       │   ├── pages/          # Page Object Model classes
+         │       │   ├── tests/          # Test classes
+         │       │   └── utilities/      # Utility classes
+         │       └── resources/
+         │       │   ├── allure.properties
+         │       │  
+         │       ├── allTest.xml     # Runs all tests   
+         │       ├── test.xml        # Test configuration
+         │
+         ├── pom.xml
+         └── README.md
+         └── Configuration.properties
 
 
 
