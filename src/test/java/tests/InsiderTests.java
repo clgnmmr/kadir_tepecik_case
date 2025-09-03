@@ -97,6 +97,6 @@ public class InsiderTests {
 
     @AfterClass
     public void tearDown() {
-        //Driver.closeDriver();
+        Driver.closeDriver();
     }
 }
