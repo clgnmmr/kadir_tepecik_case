@@ -93,6 +93,8 @@ src
     
 ---
 ## Notes
-The **Configuration.properties** file allows customization of **base_url**, **qa_page**, **location**, and **department** values.
-The **Hook class** captures screenshots on test failure and attaches them to the **Allure report**.
-The **testng.xml** includes a listener to ensure reporting works for all tests.
+- The **Configuration.properties** file allows customization of **base_url**, **qa_page**, **location**, and **department** values.
+  
+- The **Hook class** captures screenshots on test failure and attaches them to the **Allure report**.
+  
+- The **testng.xml** includes a listener to ensure reporting works for all tests.
